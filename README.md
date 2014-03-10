@@ -2,7 +2,7 @@
 
 This is a simple OS X Application for playing OS X System Sound.
 
-![screenshot](https://raw.github.com/takobear/HelloSystemSound/master/Screenshots/screenshot.jpg "screenshot")
+![screenshot](https://raw.github.com/TakoBear/HelloSystemSound/master/Screenshots/screenshot.png "screenshot")
 
 ## Link
 
