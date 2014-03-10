@@ -18,6 +18,8 @@
 		0902D63018CDD58F00B81B7A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0902D60F18CDD58F00B81B7A /* Cocoa.framework */; };
 		0902D63818CDD58F00B81B7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0902D63618CDD58F00B81B7A /* InfoPlist.strings */; };
 		0902D63A18CDD58F00B81B7A /* HelloSystemSoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0902D63918CDD58F00B81B7A /* HelloSystemSoundTests.m */; };
+		0902D64718CDD5C000B81B7A /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0902D64518CDD5C000B81B7A /* MainWindowController.m */; };
+		0902D64818CDD5C000B81B7A /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0902D64618CDD5C000B81B7A /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		0902D63518CDD58F00B81B7A /* HelloSystemSoundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloSystemSoundTests-Info.plist"; sourceTree = "<group>"; };
 		0902D63718CDD58F00B81B7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0902D63918CDD58F00B81B7A /* HelloSystemSoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloSystemSoundTests.m; sourceTree = "<group>"; };
+		0902D64418CDD5C000B81B7A /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		0902D64518CDD5C000B81B7A /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		0902D64618CDD5C000B81B7A /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +120,10 @@
 		0902D61518CDD58F00B81B7A /* HelloSystemSound */ = {
 			isa = PBXGroup;
 			children = (
+				0902D64318CDD59E00B81B7A /* Controllers */,
+				0902D64918CDD5C500B81B7A /* Resources */,
 				0902D62118CDD58F00B81B7A /* bearAppDelegate.h */,
 				0902D62218CDD58F00B81B7A /* bearAppDelegate.m */,
-				0902D62418CDD58F00B81B7A /* MainMenu.xib */,
 				0902D62718CDD58F00B81B7A /* Images.xcassets */,
 				0902D61618CDD58F00B81B7A /* Supporting Files */,
 			);
@@ -152,6 +158,24 @@
 				0902D63618CDD58F00B81B7A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0902D64318CDD59E00B81B7A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0902D64418CDD5C000B81B7A /* MainWindowController.h */,
+				0902D64518CDD5C000B81B7A /* MainWindowController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0902D64918CDD5C500B81B7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0902D62418CDD58F00B81B7A /* MainMenu.xib */,
+				0902D64618CDD5C000B81B7A /* MainWindowController.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +259,7 @@
 				0902D62818CDD58F00B81B7A /* Images.xcassets in Resources */,
 				0902D62018CDD58F00B81B7A /* Credits.rtf in Resources */,
 				0902D62618CDD58F00B81B7A /* MainMenu.xib in Resources */,
+				0902D64818CDD5C000B81B7A /* MainWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0902D64718CDD5C000B81B7A /* MainWindowController.m in Sources */,
 				0902D62318CDD58F00B81B7A /* bearAppDelegate.m in Sources */,
 				0902D61C18CDD58F00B81B7A /* main.m in Sources */,
 			);
