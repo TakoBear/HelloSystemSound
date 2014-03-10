@@ -491,6 +491,7 @@
 				0902D63F18CDD58F00B81B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0902D64018CDD58F00B81B7A /* Build configuration list for PBXNativeTarget "HelloSystemSoundTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +500,7 @@
 				0902D64218CDD58F00B81B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
